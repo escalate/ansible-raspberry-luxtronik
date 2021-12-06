@@ -15,6 +15,7 @@ galaxy_info:
     - pi
     - raspberrypi
     - luxtronik
+    - luxtronik2
     - heatpump
     - lwp
     - alpha
