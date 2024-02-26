@@ -1,14 +1,8 @@
-[![Molecule](https://github.com/escalate/ansible-raspberry-luxtronik/actions/workflows/molecule.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-luxtronik/actions/workflows/molecule.yml)
+[![Test](https://github.com/escalate/ansible-raspberry-luxtronik/actions/workflows/test.yml/badge.svg?branch=master&event=push)](https://github.com/escalate/ansible-raspberry-luxtronik/actions/workflows/test.yml)
 
 # Ansible Role: Raspberry - Luxtronik
 
 An Ansible role that manages Luxtronik statistics backup on Raspberry Pi OS (Debian Bookworm).
-
-## Install
-
-```
-$ ansible-galaxy install escalate.luxtronik
-```
 
 ## Role Variables
 
@@ -20,6 +14,12 @@ This role relies on the following dependencies:
 
 * Roles: [requirements.yml](https://github.com/escalate/ansible-raspberry-luxtronik/blob/master/requirements.yml)
 * Collections: None
+
+## Installation
+
+```
+$ ansible-galaxy role install escalate.luxtronik
+```
 
 ## Example Playbook
 
